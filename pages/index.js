@@ -11,6 +11,7 @@ const OBTENER_CLIENTES_USUARIO = gql`
       apellido
       empresa
       email
+      id
     }
   }
 `
@@ -46,6 +47,7 @@ const Index = () => {
               <th className="w-1/5 py-2">Empresa</th>
               <th className="w-1/5 py-2">Email</th>
               <th className="w-1/5 py-2">Eliminar</th>
+              <th className="w-1/5 py-2">Editar</th>
             </tr>
           </thead>
 

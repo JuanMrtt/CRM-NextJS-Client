@@ -44,6 +44,7 @@ const Cliente = ({ cliente }) => {
     const { nombre, apellido, empresa, email, id } = cliente;
 
 
+
     // Elimina un cliente
     const confirmarEliminarCliente = () => {
         Swal.fire({
@@ -79,6 +80,7 @@ const Cliente = ({ cliente }) => {
             }
         })
     }
+
 
     const editarCliente = () => {
         Router.push({
